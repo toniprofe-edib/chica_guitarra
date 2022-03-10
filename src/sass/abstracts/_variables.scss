@@ -1,3 +1,70 @@
 /* ********* */
 /* @VARIABLES */
 /* ********* */
+
+
+// COLORES
+// ************************************************
+$blanco: #e8e8e8;
+$negro: #2e2e2e;
+
+// ************************************************
+$colores: (
+    fondo: (
+        base: #5D3E75
+    ),
+    texto: (
+        base: $blanco,
+        parrafo: #B3A1CC
+    ),
+    links: (
+        base: white,
+        violeta: #B3A1CC,
+        amarillo: #F2E287
+    ),
+    botones: (
+        izq: #F2E287,
+        der: #DB9678
+    ),
+    grises: (
+        base: #f5f5f5,
+        gris: #e5e5e5,
+        gris2: #d5d5d5,
+        gris3: #c5c5c5,
+        gris4: #b5b5b5,
+        gris5: #a5a5a5,
+        gris6: #959595,
+        gris7: #858585,
+        gris8: #757575,
+        gris9: #656565,
+        gris10: #555555,
+        gris11: #454545,
+        gris12: #353535,
+        gris13: #252525,
+        gris14: #151515,
+        gris15: #050505
+    ),
+    );
+
+// TIPOGRAFIA
+// ************************************************
+$fuenteBase: 16px;
+
+$fontSize: (
+    // SEO
+    h1: 3rem,
+    h2: 2rem,
+    h3: 1.5rem,
+    links: 1.5rem,
+    // NO SEO
+    h4: 1rem,
+    parrafo: 1rem,
+
+    h5: 0.75rem,
+    h6: 0.5rem
+    );
+
+$interlineado: 1.5rem;
+
+// Tamaños
+$desktop: 1366px;

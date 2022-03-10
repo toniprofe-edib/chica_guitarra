@@ -1,3 +1,21 @@
 /* ********* */
 /* @HOME */
 /* ********* */
+body{
+    background-color: lighten(map-get(map-get($colores, fondo), base), 10%);
+}
+.contenedor{
+    // tamaño de la caja
+    height: 100vh;
+    max-width: $desktop;
+    margin: 0 auto;
+
+
+    // Fondo: color y tres imágenes
+    background:  url(../assets/img/desktop/chica_guitarra.jpg) no-repeat right top,
+                 url(../assets/img/desktop/hojas.jpg) no-repeat left 80%,
+                 url(../assets/img/desktop/lineas.jpg) no-repeat left top,
+                 map-get(map-get($colores, fondo), base);
+    background-size: 50%, 15%, 10%;
+            }
+
